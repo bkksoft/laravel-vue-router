@@ -1,7 +1,5 @@
-<p align="center">
-    <img src="https://avatars0.githubusercontent.com/u/51365279?s=200&v=4" width="50">
-    <img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400">
-</p>
+<p align="center"><img src="https://avatars0.githubusercontent.com/u/51365279?s=200&v=4" width="200"></p>
+<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 
 ## get it up and running.
