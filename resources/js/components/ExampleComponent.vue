@@ -2,25 +2,22 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
-                <div class="card card-default">
-                    <div class="card-header">Vue.JS SPA example</div>
+                <div class="card">
+                    <div class="card-header">Example Component</div>
 
                     <div class="card-body">
-                        <h2>{{ welcome }}</h2>
+                        I'm an example component.
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </template>
-<script>
 
+<script>
     export default {
-        name: 'home',
-        computed: {
-            welcome() {
-                return 'Hi'; //this.$store.getters.welcome
-            }
+        mounted() {
+            console.log('Component mounted.')
         }
     }
 </script>

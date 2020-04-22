@@ -1,25 +1,9 @@
-import Vue from 'vue';
-import VueRouter from 'vue-router';
-import Vuex from 'vuex';
-import {routes} from './routes';
-import StoreData from './store';
-import MainApp from './components/MainApp.vue';
+require('./bootstrap');
 
-Vue.use( VueRouter )
-Vue.use( Vuex );
+window.Vue = require('vue');
 
-const store = new Vuex.Store(StoreData);
-
-const router = new VueRouter({
-    routes,
-    mode: 'history'
-});
+Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 
 const app = new Vue({
     el: '#doc',
-    router,
-    components: {
-        MainApp
-    }
 });
-
